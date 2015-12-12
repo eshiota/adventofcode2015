@@ -1,0 +1,15 @@
+{
+  "name": "adventofcode2015",
+  "version": "1.0.0",
+  "description": "Executes the solution for each adventofcode.com challenge",
+  "main": "runner.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eshiota/adventofcode2015.git"
+  },
+  "author": "Eduardo Shiota Yasuda",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
