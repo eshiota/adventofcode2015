@@ -20,5 +20,8 @@ try {
     process.exit(1);
 }
 
-console.log(require('./day' + argv.day + '/solution_part1')(input));
+console.log('Executing part 1:\n');
+console.log(require('./day' + argv.day + '/solution_part1')(input) + '\n');
+
+console.log('Executing part 2:\n');
 console.log(require('./day' + argv.day + '/solution_part2')(input));
